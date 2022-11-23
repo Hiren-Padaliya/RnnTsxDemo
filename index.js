@@ -2,6 +2,9 @@
  * @format
  */
 
-import {start} from './src/Navigation';
+import {Navigation} from 'react-native-navigation';
+import App from './App';
 
-start();
+Navigation.events().registerAppLaunchedListener(() => {
+  App();
+});
