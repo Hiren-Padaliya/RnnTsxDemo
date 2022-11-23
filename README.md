@@ -19,7 +19,7 @@
 
 ### Folder Structure
 
-```package.json
+```
 - /project_root
 # This is the root directory of the project
     - .env
@@ -97,43 +97,11 @@
             -/Store.tsx
             # createStore, persist Store
 
-
-## Tech Stack
-
-**Client:** React-native, typescript, Redux, Redux-Persist, wix/react-native/navigation
-
-**Server:** REST API gorest.co.in
-
-
+```
 ## API Reference
 
 #### Get all Users
-Get users name to show in flatlist
-
-```http
-  GET https://gorest.co.in/public/v2/users
-```
-
-
-## Appendix
-
-Wix navigation: https://github.com/wix/react-native-navigation
-Modal: https://wix.github.io/react-native-navigation/docs/modal/
-Redux store: https://redux.js.org/api/store
-Redux persist: https://github.com/rt2zz/redux-persist
-
-https://www.npmjs.com/package/react-native-navigation-hooks
-npmjs.com/package/@react-native-community/async-storage
-https://www.npmjs.com/package/redux-thunk
-
-## Output
-
-
-
-## Demo
-
-Scan QR Code to Install app
- 
+Get users name to show in flatlist : GET https://gorest.co.in/public/v2/users
 
 
 ## Installation
@@ -152,8 +120,35 @@ Run iOS with NPM
   pod install
   npm run ios
 ```
-    
+
+
+## Output
+
+<img width="1006" alt="RnnTsxDemo" src="https://user-images.githubusercontent.com/26035160/203601362-1dc3a844-434a-4bbf-9a69-55c034c3f4e6.png">
+
+
+## Demo
+
+Scan QR Code to Install app
+
+![RnnTsxDemoLinkQR (2)](https://user-images.githubusercontent.com/26035160/203602993-7e553357-c65e-4460-bb74-227dc32c743f.png)
+
+
+
+
+
+## Appendix
+
+Wix navigation: https://github.com/wix/react-native-navigation
+Modal: https://wix.github.io/react-native-navigation/docs/modal/
+Redux store: https://redux.js.org/api/store
+Redux persist: https://github.com/rt2zz/redux-persist
+
+https://www.npmjs.com/package/react-native-navigation-hooks
+npmjs.com/package/@react-native-community/async-storage
+https://www.npmjs.com/package/redux-thunk
+
+
 ## Support
 Dark Mode Support Comming Soon...🙂
-
 
